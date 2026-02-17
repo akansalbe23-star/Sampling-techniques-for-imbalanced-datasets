@@ -43,12 +43,13 @@ Class Distribution: The dataset contains a majority class (legitimate transactio
 ## Results
 The following table shows the accuracy scores obtained for each model under different sampling techniques.
 
-Model   Sampling1   Sampling2   Sampling3   Sampling4   Sampling5
-M1      0.7835      0.9381      0.8750      0.9691      0.9278
-M2      0.9588      0.9588      0.9792      0.9794      0.9897
-M3      1.0000      1.0000      1.0000      1.0000      1.0000
-M4      0.9691      0.9072      0.9583      0.9897      0.9278
-M5      0.8247      0.6495      0.7292      1.0000      0.7423
+| Model | Sampling1 | Sampling2 | Sampling3 | Sampling4 | Sampling5 |
+|------|-----------|-----------|-----------|-----------|-----------|
+| M1 | 0.7835 | 0.9381 | 0.8750 | 0.9691 | 0.9278 |
+| M2 | 0.9588 | 0.9588 | 0.9792 | 0.9794 | 0.9897 |
+| M3 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
+| M4 | 0.9691 | 0.9072 | 0.9583 | 0.9897 | 0.9278 |
+| M5 | 0.8247 | 0.6495 | 0.7292 | 1.0000 | 0.7423 |
 
 ## Key Observations
 - Random Forest (M3) achieved perfect accuracy across all sampling techniques, indicating strong performance on the balanced dataset.
